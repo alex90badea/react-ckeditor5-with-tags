@@ -1,6 +1,6 @@
 {
   "name": "react-ckeditor5-with-tags",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The classic editor build of CKEditor 5 with insert tags from dropdown button.",
   "keywords": [
     "ckeditor5-build",

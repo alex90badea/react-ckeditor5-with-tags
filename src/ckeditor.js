@@ -21,6 +21,7 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import Collection from '@ckeditor/ckeditor5-utils/src/collection';
 import Model from '@ckeditor/ckeditor5-ui/src/model';
 import { createDropdown, addListToDropdown } from '@ckeditor/ckeditor5-ui/src/dropdown/utils';
+import {Link} from "@ckeditor/ckeditor5-link";
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -105,7 +106,7 @@ class Tags extends Plugin {
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
-	plugins: [Essentials, Bold, Italic, Underline, Heading, List, Font, RemoveFormat, Alignment, Label, Tags],
-	toolbar: ['label', '|', 'heading', '|', 'fontColor', 'fontBackgroundColor', '|', 'bold', 'italic', 'underline', '|', 'bulletedList', 'numberedList', 'removeFormat', 'Alignment', '|', 'tags']
+	plugins: [Essentials, Bold, Italic, Underline, Heading, List, Font, RemoveFormat, Alignment, Label, Tags, Link],
+	toolbar: ['label', '|', 'heading', '|', 'fontColor', 'fontBackgroundColor', '|', 'bold', 'italic', 'underline', '|', 'link', '|', 'bulletedList', 'numberedList', 'removeFormat', 'Alignment', '|', 'tags']
 };
 
